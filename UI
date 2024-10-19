@@ -1726,8 +1726,8 @@ function Library.new(config)
 						ImageTransparency = 0.35
 					}):Play()
 
-					Twen:Create(TextInt,TweenInfo.new(0.2),{
-						TextTransparency = 0
+					Twen:Create(FunctionButton,TweenInfo.new(0.2),{
+						BackgroundTransparency = 0.35
 					}):Play()
 				end)
 
@@ -1735,9 +1735,8 @@ function Library.new(config)
 					Twen:Create(DropShadow,TweenInfo.new(0.2),{
 						ImageTransparency = 0.600
 					}):Play()
-
-					Twen:Create(TextInt,TweenInfo.new(0.2),{
-						TextTransparency = 0.25
+					Twen:Create(FunctionButton,TweenInfo.new(0.2),{
+						BackgroundTransparency = 0
 					}):Play()
 				end)
 
