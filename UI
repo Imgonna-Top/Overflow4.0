@@ -350,8 +350,8 @@ function Library.new(config)
 			Twen:Create(Headers,TweenInfo1,{Position = UDim2.fromScale(0.01,0.015)}):Play();
 
 			Twen:Create(ImageButton,TweenInfo.new(0.85,Enum.EasingStyle.Quint,Enum.EasingDirection.InOut),{
-				Position = UDim2.new(0.5, 0, 0.5, 0),
-				Size = UDim2.new(0.5,0.5),
+				Position = UDim2.new(0.992500007, 0, 0.00999999978, 0),
+				Size = UDim2.new(0.0850000009, 0, 0.0850000009, 0),
 				ImageTransparency = 0.5,
 				AnchorPoint = Vector2.new(1, 0)
 			}):Play();
