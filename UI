@@ -1615,7 +1615,6 @@ function Library.new(config)
 				TextInt.TextSize = 14.000
 				TextInt.TextTransparency = 1
 				TextInt.TextWrapped = true
-				TextInt.TextXAlignment = Enum.TextXAlignment.Left
 				Twen:Create(TextInt,TweenInfo1,{TextTransparency = 0}):Play();
 
 				UICorner.CornerRadius = UDim.new(0, 2)
